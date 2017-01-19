@@ -1,5 +1,15 @@
 # 更新日志
 
+## Android 统计分析SDK v1.0.015 `(2017-01-19)`
+```
+功能更新：  
+1、修复已知 bug
+2、重构崩溃信息收集模块
+3、去除Logger类
+    去除DroiAnalytics.setCrashReportWithLog(boolean);
+    去除DroiAnalytics.setSandboxMode(boolean);
+```  
+
 ## Android 统计分析SDK v1.0.014 `(2016-11-30)`
 ```
 功能更新：  
