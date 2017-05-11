@@ -1,5 +1,64 @@
 # 更新日志
 
+## Android Core-SDK v1.1.3727 `(2017-5-9)`
+```
+1、修复注册后，isAnonymous仍是True的问题
+2、新增DroiError.NATIVE_LIBRARY_NOT_FOUND
+3、新增DroiError.getTicket
+4、新增返回错误，当DroiCloud.callResetApi "GET"/"DELETE"的传入参数不为null
+5、新增DroiObject.atomicAdd api
+6、修复由于 QQ/Weixin SDK 更新，第三方授权无法使用的问题
+7、修复DroiFile save progress
+8、修复List<DroiFile> 无法 DroiQuery 回来的问题
+```  
+
+## Android Core-SDK v1.1.3676 `(2017-4-14)`
+```
+1、修复condition.isNull 报exception的问题
+2、新增DroiUser.isEnabled API
+3、修复Core.initialize ANR的问题
+4、修复DroiUser.changePassword回传1040010，改成1070003
+5、新增DroiFile.hasUri
+6、新增DroiFile的uri会在上传后缓存
+7、修复手机时间修改正确后，还是回传1070201的问题
+```  
+
+## Android Core-SDK v1.1.3652 `(2017-3-24)`
+```
+1、更新 DroiFile v2（七牛）
+2、修复 index out of bound exception 问题
+```  
+
+## Android Core-SDK v1.1.3573 `(2017-3-16)`
+```
+1、调整signup流程，注册一般用户失败不会留下一个匿名用户
+2、新增注册用户已存在时，会回传 DroiError.USER_ALREADY_EXISTS
+3、新增DroiUser.resetPassword和DroiUser.confirmResetPassword
+4、修复isnull/isnotnull无效的问题
+5、新增海外导流机制（iplist v2）
+```  
+
+## Android Core-SDK v1.0.3512 `(2017-1-13)`
+```
+1、修复DroiGroup.fetchRelation结果为空的问题
+2、修复保存List<String>到localstorage出错的问题
+3、新增DroiCloud.callRestApi方法调用cloud code 
+```  
+
+## Android Core-SDK v1.0.3466 `(2016-12-29)`
+```
+1、修复使用Intent传输 droiobject时产生exception的问题
+2、新增检查DroiFile缓存的md5
+```  
+
+## Android Core-SDK v1.0.3454 `(2016-12-21)`
+```
+功能更新：  
+1、修复已知bug
+2、新增DroiCondition.selectIn 支持 List
+3、去除 DroiFile 最大大小限制，改为在服务端检查
+```  
+
 ## Android Core-SDK v1.0.3449 `(2016-11-24)`
 ```
 功能更新：  
