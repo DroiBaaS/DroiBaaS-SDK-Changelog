@@ -1,5 +1,20 @@
 # 更新日志
 
+## Android Core-SDK v1.1.3739 `(2017-5-25)`
+```
+1、新增 DroiUser.requestOTP / DroiUser.loginOTP
+```
+
+## Android Core-SDK v1.1.3727 `(2017-5-23)`
+```
+1、修复 DroiObject.saveEventualy 无法使用的问题
+2、去除 DroiPreference.getJsonObject
+3、新增 DroiUser.resetPassword type - EMAIL&ALL
+4、修复 DroiFile in DroiReference 的问题
+5、新增文件大小为0时，DroiFile.save 会报错
+6、更改 DroiReferenceObject.droiObject type 为 DroiObject*
+```
+
 ## Android Core-SDK v1.1.3727 `(2017-5-9)`
 ```
 1、修复注册后，isAnonymous仍是True的问题
