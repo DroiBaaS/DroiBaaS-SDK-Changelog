@@ -1,9 +1,18 @@
 # 更新日志
 
-## Android Core-SDK v1.1.3739 `(2017-5-25)`
-```
-1、新增 DroiUser.requestOTP / DroiUser.loginOTP
-```
+## Android Core-SDK v1.1.3893 `(2017-7-6)`  
+```  
+1、修复DroiCloud.callRestApi GET参数非null无提示问题  
+2、支持在ArrayList上设置@DroiReference  
+3、支持DroiOAuthProvider构建传入Scope  
+4、支持微信登录后获取AccessToken和OpenId  
+```  
+
+## Android Core-SDK v1.1.3854 `(2017-6-22)`  
+```  
+1、修复loginOTP返回DroiError错误问题  
+2、修复安全性问题  
+```  
 
 ## Android Core-SDK v1.1.3727 `(2017-5-23)`
 ```
