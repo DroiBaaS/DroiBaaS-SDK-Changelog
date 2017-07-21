@@ -1,5 +1,12 @@
 # 更新日志
 
+## Android Core-SDK v1.1.3917 `(2017-7-20)`  
+```  
+1、修复 DroiFile getUri 失败情况下会传回正确DroiError问题  
+2、修复未登录时調用 DroiUser.saveInBackground执行回调失败问题  
+3、移除对 DroiAccount OAuth 支持  
+```   
+
 ## Android Core-SDK v1.1.3893 `(2017-7-6)`  
 ```  
 1、修复DroiCloud.callRestApi GET参数非null无提示问题  
