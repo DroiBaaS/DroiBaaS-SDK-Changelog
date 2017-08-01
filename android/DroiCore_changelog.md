@@ -9,10 +9,11 @@
 
 ## Android Core-SDK v1.1.3893 `(2017-7-6)`  
 ```  
-1、修复DroiCloud.callRestApi GET参数非null无提示问题  
-2、支持在ArrayList上设置@DroiReference  
-3、支持DroiOAuthProvider构建传入Scope  
-4、支持微信登录后获取AccessToken和OpenId  
+1、本版本开始要求OkHttp3更新到3.8.0(含)以上
+2、修复DroiCloud.callRestApi GET参数非null无提示问题  
+3、支持在ArrayList上设置@DroiReference  
+4、支持DroiOAuthProvider构建传入Scope  
+5、支持微信登录后获取AccessToken和OpenId  
 ```  
 
 ## Android Core-SDK v1.1.3854 `(2017-6-22)`  
