@@ -1,5 +1,10 @@
 # 更新日志
 
+## Android Core-SDK v1.1.3943 `(2017-7-27)`  
+```  
+1、优化代码逻辑和程序性能  
+```   
+
 ## Android Core-SDK v1.1.3917 `(2017-7-20)`  
 ```  
 1、修复 DroiFile getUri 失败情况下会传回正确DroiError问题  
