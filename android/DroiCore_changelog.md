@@ -1,5 +1,11 @@
 # 更新日志
 
+## Android Core-SDK v1.1.4014 `(2017-9-7)`  
+```  
+1. 移除DroiCloud的自动登录操作  
+2. 优化代码  
+```     
+
 ## Android Core-SDK v1.1.4006 `(2017-8-31)`  
 ```  
 1. 完善权限不足时查询DroiReference返回结果  
