@@ -1,6 +1,14 @@
 # 更新日志
 
-## iOS Core-SDK v1.1.2517 `(2017-5-25)`
+## iOS Core-SDK v1.1.2672 `(2017-9-28)`
+```
+1、修改 OAuth API 可在未安装第三方应用时跳转网页登录
+2、新增 DroiUser OTP  同步方法
+3、更新 DroiBaaSOAuth v1.1.110
+4、修正部分可能导致 AppID 格式错误的 BUG
+```
+
+## iOS Core-SDK v1.1.2518 `(2017-5-25)`
 ```
 1、新增 DroiUser.requestOTP / DroiUser.loginOTP
 ```
