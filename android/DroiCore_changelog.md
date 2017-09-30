@@ -1,5 +1,13 @@
 # 更新日志
 
+## Android Core-SDK v1.1.4035 `(2017-9-28)`  
+```  
+1. DroiUser新增OTP登录同步方法和获取session有效时间方法  
+2. OTP登录异步方法增加boolean返回值  
+3. 第三方登录增加获取和检测OAuthKey方法  
+3. 修复已知bug  
+```     
+
 ## Android Core-SDK v1.1.4014 `(2017-9-7)`  
 ```  
 1. 移除DroiCloud的自动登录操作  
