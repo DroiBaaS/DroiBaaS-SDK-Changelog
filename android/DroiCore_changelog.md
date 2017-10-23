@@ -1,5 +1,14 @@
 # 更新日志
 
+## Android Core-SDK v1.1.4086 `(2017-10-19)`  
+```  
+1. 更新saveAll批量保存接口  
+2. 实现DroiQuery局部更新机制  
+3. 修正DroiUser设置后本地缓存更新失败问题  
+4. OAuth优先使用本地缓存  
+ 
+```     
+
 ## Android Core-SDK v1.1.4035 `(2017-9-28)`  
 ```  
 1. DroiUser新增OTP登录同步方法和获取session有效时间方法  
