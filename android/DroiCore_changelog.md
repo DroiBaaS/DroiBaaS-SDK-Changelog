@@ -1,5 +1,22 @@
 # 更新日志
 
+## Android Core-SDK v1.1.4120 `(2017-12-26)`  
+```  
+1. 加强数据传输效率，增加lz4-java包(AS加上依赖compile 'org.lz4:lz4-java:1.4.0')  
+2. 修正 DroiObject.saveAll / DroiObject.deleteAll问题  
+3. 新增 DroiObject.fetchObject / DroiObject.fetchObjects  
+4. 移除校验手机时间功能  
+5. 移除无效的_ValueSet  
+ 
+```     
+
+## Android Core-SDK v1.1.4093 `(2017-11-7)`  
+```  
+1. 优化登录流畅度；
+2. 增加Native Library检测方法；
+ 
+```   
+
 ## Android Core-SDK v1.1.4086 `(2017-10-19)`  
 ```  
 1. 更新saveAll批量保存接口  
