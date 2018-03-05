@@ -1,5 +1,12 @@
 # 更新日志
 
+## Android Core-SDK v1.1.4194 `(2018-2-1)`  
+```  
+1. 增加对新版统计的支持  
+2. 修复已知bug  
+
+```  
+
 ## Android Core-SDK v1.1.4120 `(2017-12-26)`  
 ```  
 1. 加强数据传输效率，增加lz4-java包(AS加上依赖compile 'org.lz4:lz4-java:1.4.0')  
