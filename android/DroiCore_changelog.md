@@ -1,5 +1,13 @@
 # 更新日志
 
+## Android Core-SDK v1.1.4210 `(2018-3-6)`  
+```  
+1. DroiObject.atomicAdd支持同时对多字段处理  
+2. DroiObject.atomicAdd传递value类型更改为double  
+3. 修复已知bug  
+
+```  
+
 ## Android Core-SDK v1.1.4194 `(2018-2-1)`  
 ```  
 1. 增加对新版统计的支持  
